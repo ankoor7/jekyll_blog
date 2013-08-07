@@ -1,0 +1,18 @@
+---
+layout: default
+title: Blogging Like a Hacker
+---
+
+<h1>BLAH!!!</h1>
+
+<p>Hipster ips lorem lorem ips ips</p>
+
+<p>WOMBLE!!!</p>
+
+<ul>
+{% for post in site.posts %}
+  <li>
+    <a href="{{post.url}}">{{post.title}}
+  </li>
+{% endfor %}
+</ul>
