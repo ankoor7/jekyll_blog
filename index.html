@@ -12,7 +12,7 @@ title: Blogging Like a Hacker
 <ul>
 {% for post in site.posts %}
   <li>
-    <a href="{{post.url}}">{{post.title}}
+    <a href="{{site.baseurl}}{{post.url}}">{{post.title}}
   </li>
 {% endfor %}
 </ul>
